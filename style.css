@@ -29,6 +29,7 @@
   flex: 1;
   border: 1px solid #666;
   display: flex;
+  padding-right: 10px;
   justify-content: flex-end;
 }
 
@@ -38,7 +39,12 @@
   list-style: none;
   gap: 20px;
   justify-content: center;
-
+}
+/* hover */
+.child-2 ul li a:hover{
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  color: #000;
 }
 
 .child-2 ul li a {
