@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #454545;
+  color: white;
+  min-height: 100vh; 
+  border: 1px solid #000;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Vertically aligns logo and menu */
+}
+
+.child-1 {
+  flex: 1; 
+  border: 1px solid #666; /* Lighter border to see on dark bg */
+}
+
+.child-2 {
+  flex: 3; 
+  border: 1px solid #666;
+}
+.child-3 {
+  flex: 1;
+  border: 1px solid #666;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.child-2 ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.child-2 ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
